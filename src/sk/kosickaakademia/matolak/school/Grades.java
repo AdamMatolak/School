@@ -27,4 +27,8 @@ public class Grades {
     public String toString() {
         return "Grades: MATEMATIKA: " + math + "ENG: " + eng + "PRO: " + pro;
     }
+
+    public double getAverage(){
+        return (double)((math+eng+pro)/3);
+    }
 }
